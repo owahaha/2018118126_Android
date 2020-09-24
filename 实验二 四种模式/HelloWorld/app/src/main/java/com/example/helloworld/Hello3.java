@@ -14,6 +14,7 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello3);
+        Log.d("Hello3",this.toString());
         Log.d(TAG, "onCreate execute");
         setTitle("Hello3");
         settupButtons();
@@ -86,7 +87,13 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
         b = (Button) findViewById(R.id.btToHello2);
         b.setOnClickListener(this);
         b = (Button) findViewById(R.id.btToHello3);
-        b.setOnClickListener(this);
+        b.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(Hello3.this,Hello3.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
