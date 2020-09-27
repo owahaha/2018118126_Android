@@ -18,7 +18,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello_world_layout);
-        Log.d("Hello1",this.toString());
+        Log.d("Hello1","Task id is" + getTaskId());
         objCount++;
         mObjCount = objCount;
         Log.d(TAG, mObjCount + "-onCreate execute");
@@ -99,7 +99,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
         b.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(Hello1.this,Hello1.class);
+                Intent intent = new Intent(Hello1.this,Hello2.class);
                 startActivity(intent);
             }
         });

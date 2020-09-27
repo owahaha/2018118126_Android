@@ -15,7 +15,7 @@ public class Hello2 extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello2);
-        Log.d("Hello2",this.toString());
+        Log.d("Hello2","Task id is" + getTaskId());
         Log.d(TAG, "onCreate execute");
         setTitle("Hello2");
         settupButtons();
@@ -86,7 +86,7 @@ public class Hello2 extends AppCompatActivity implements View.OnClickListener {
         b.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(Hello2.this,Hello2.class);
+                Intent intent = new Intent(Hello2.this,Hello3.class);
                 startActivity(intent);
             }
         });

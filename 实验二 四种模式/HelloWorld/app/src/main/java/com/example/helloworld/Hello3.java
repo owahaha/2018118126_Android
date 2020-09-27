@@ -14,7 +14,7 @@ public class Hello3 extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello3);
-        Log.d("Hello3",this.toString());
+        Log.d("Hello3","Task id is" + getTaskId());
         Log.d(TAG, "onCreate execute");
         setTitle("Hello3");
         settupButtons();
