@@ -3,6 +3,7 @@ package com.example.shiyanui;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.button:
-                AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+/*                AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("This is Dialog");
                 dialog.setMessage("Something important.");
                 dialog.setCancelable(false);
@@ -53,7 +54,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 });
                 dialog.show();
-                break;
+ */
+                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+                progressDialog.setTitle("This is ProgressDialog");
+                progressDialog.setMessage("Loading...");
+                progressDialog.setCancelable(true);
+                progressDialog.show();
             default:
                 break;
         }
