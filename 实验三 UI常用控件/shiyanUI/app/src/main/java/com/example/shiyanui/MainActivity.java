@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -19,24 +20,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText editText;
 
     private ImageView imageView;
-
-    private ProgressBar progressBar;
+    private ImageButton ibtnDownload = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.button);
+        ibtnDownload = (ImageButton)super.findViewById(R.id.download);
+        ibtnDownload.setOnClickListener(this);
         editText = (EditText) findViewById(R.id.edit_text);
-        imageView = (ImageView) findViewById(R.id.image_view);
-        progressBar = (ProgressBar) findViewById(R.id.progress_bar);
-        button.setOnClickListener(this);
+ //       imageView = (ImageView) findViewById(R.id.image_view);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.button:
+            case R.id.download:
 /*                AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("This is Dialog");
                 dialog.setMessage("Something important.");
@@ -55,11 +54,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 });
                 dialog.show();
  */
-                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+  /*              ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
                 progressDialog.setTitle("This is ProgressDialog");
                 progressDialog.setMessage("Loading...");
                 progressDialog.setCancelable(true);
                 progressDialog.show();
+
+   */
+                String inputText = editText.getText().toString();
+                Toast.makeText(MainActivity.this,inputText,Toast.LENGTH_SHORT).show();
+                break;
             default:
                 break;
         }

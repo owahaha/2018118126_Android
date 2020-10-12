@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+<!--
         <TextView
             android:id="@+id/text_view"
             android:layout_width="match_parent"
@@ -46,6 +46,82 @@
             android:layout_height="wrap_content"
            style="?android:attr/progressBarStyleHorizontal"
            android:max="100"/>
+-->
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#42426F"
+            android:text="健康服务系统"
+            />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="182dp"
+            android:layout_height="168dp"
+            android:src="@drawable/jiankang"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入搜索的内容" />
+
+            <ImageButton
+                android:id="@+id/download"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/anniu" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="图片"
+                android:textColor="#42426F"
+                android:textSize="18sp"
+                style="@style/AppTheme"/>
+
+            <RadioButton
+                style="@style/AppTheme"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="视频"
+                android:textColor="#42426F"
+                android:textSize="18sp" />
+
+            <RadioButton
+                style="@style/AppTheme"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="问答"
+                android:textColor="#42426F"
+                android:textSize="18sp" />
+            <RadioButton
+                style="@style/AppTheme"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="新闻"
+                android:textColor="#42426F"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
