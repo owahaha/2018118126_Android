@@ -1,0 +1,65 @@
+### 一、实验要求：探究UI开发的常用控件
+
+### 二、实验目的：为了合理的使用控件轻松地编写出不错的界面，我们必须熟悉常用控件的使用办法
+
+### 三、实验内容：
+
+1.跟着课本的代码，熟悉实验内容
+
+2.设计一个UI界面
+
+(1)使用TextView显示界面的标题
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/21.png)
+
+(2)使用ImageView显示界面的图片
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/22.png)
+
+(3)外面包一层横向linearlayout，再在里面放置一个EdioText和一个ImageButton，编写监听器，产生输入框和按钮在同一行的效果
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/23.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/jt1.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/jt2.png)
+
+(4)使用RdioGroup单选组合框容器，再在里面放置4个RadioButton组件，实现单选按钮的效果
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/24.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/25.png)
+
+(5)展示成果：在编辑框输入对应的内容，再点击要搜索的类型，再按搜索按钮，系统就会将输入的内容显示出来。如图所示。
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/26.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/27.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E4%B8%89%20UI%E5%B8%B8%E7%94%A8%E6%8E%A7%E4%BB%B6/%E5%AE%9E%E9%AA%8C%E4%B8%89%20%E5%9B%BE%E7%89%87/28.png)
+
+### 四、实验总结：
+
+​		通过本次实验，了解了7个常用的控件，也因为实验的需要而上网自学了3个控件(ImageButton、RadioGroup、RadioButtton)。
+
+(1)TextView   在界面上显示一段文本信息
+
+(2)Button 在界面上显示一个按钮，主要用于和用户交互
+
+(3)EditText 允许用户在控件中输入和编辑内容，并在程序中对这些文字进行处理，一般和Button搭配使用
+
+(4)ImageView 在界面上展示图片
+
+(5)ProgressBar 在界面上显示进度条
+
+(6)AlertDialog 在当前界面弹出一个对话框
+
+(7)ProgressDialog 在界面上弹出一个对话框并显示一个进度条
+
+(8)ImageButton 在界面显示一个图像按钮，可以按照自己的喜好设置按钮的图片
+
+(9)RadioGroup 单选组合框，可以容纳多个RadioButton的一个容器
+
+(10)RadioButton 单选按钮，在没有RadioGroup的情况下，RadioButton可以被全部选中；当RadioGroup包含多个RadioButton时，RadioButton只可以选择一个，从而达到了单选的目的。
+
+​	在这次实验中，有很多时间的监听还没有完善。今后可以一步一步慢慢完善。
