@@ -1,0 +1,33 @@
+### 一、实验要求：探究滚动控件RecyclerView
+
+### 二、实验目的：为了使界面数据实现滚动的效果，我们必须熟悉具有强大功能的滚动控件RecyclerView
+
+### 三、实验内容：
+
+ 1.按照课本的提示编写代码，添加水果图片。运行后得到以下结果：
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/1.png)
+
+滚动菜单条，可以实现页面滑动：
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/2.png)
+
+2.通过对FruitAdapter.java文件的编写，可以实现RecycleView的点击事件，如图片所示，点击图片后可以显示该水果的文字部分。
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/3.png)
+
+3.在Fruit.java添加setName()和toString()函数，在FruitAdapter.java文件添加点击事件弹出对话框，在文本框中输入文字，再点DETERMINE，就能修改水果的名称，而点CANCEL则代表着取消。
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/4.png)
+
+修改后，再次点击修改过的图片，则显示修改后的文字。
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/5.png)
+
+![Image](https://github.com/owahaha/2018118126_Android/raw/master/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%20Recycler%20View/%E5%AE%9E%E9%AA%8C%E5%9B%9B%20%E5%9B%BE%E7%89%87/6.png)
+
+### 四、实验总结：
+
+​		通过本次实验，了解了具有强大功能的滚动控件——RecyclerView的基本用法。
+
+​		RecyclerView功能比ListView更加强大，不仅可以轻松实现和ListView同样的效果，还优化了ListView中存在的各种不足之处。不仅能实现数据纵向滚动的效果，还能实现数据横向滚动的效果。
