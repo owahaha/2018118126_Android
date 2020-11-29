@@ -19,3 +19,11 @@
 
 ### 实验七  广播（自定义广播的使用）
 [项目BroadcastTest](https://github.com/owahaha/2018118126_Android/tree/master/%E5%AE%9E%E9%AA%8C%E4%B8%83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E6%92%AD/BroadcastTest)  [项目BroadcastTest2](https://github.com/owahaha/2018118126_Android/tree/master/%E5%AE%9E%E9%AA%8C%E4%B8%83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E6%92%AD/BroadcastTest2)   [实验报告](https://github.com/owahaha/2018118126_Android/blob/master/%E5%AE%9E%E9%AA%8C%E4%B8%83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B9%BF%E6%92%AD/%E5%AE%9E%E9%AA%8C%E4%B8%83%20%E6%8A%A5%E5%91%8A.md)
+
+### 实验八  自己创建子线程的程序框架，消息处理机制和多线程之间的数据交换
+
+### 实验九  异步任务的隐含子线程程序框架
+
+### 实验十  服务：启动和停止服务，服务代码运行在显示子线程。（注意：一定要熟练到，哪部分代码在哪个时间片运行，哪个变量是独立的，哪个变量是共享的，多个线程之间如何通讯）
+
+### 实验十一  子服务的绑定，子服务代码运行在异步任务
