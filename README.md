@@ -22,6 +22,8 @@
 
 ### 实验八  自己创建子线程的程序框架，消息处理机制和多线程之间的数据交换
 
+[项目AndroidThreadTest](https://github.com/owahaha/2018118126_Android/tree/master/%E5%AE%9E%E9%AA%8C%E5%85%AB%20%E5%AD%90%E7%BA%BF%E7%A8%8B/AndroidThreadTest)  [实验报告](https://github.com/owahaha/2018118126_Android/blob/master/%E5%AE%9E%E9%AA%8C%E5%85%AB%20%E5%AD%90%E7%BA%BF%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E5%85%AB%20%E6%8A%A5%E5%91%8A.md)
+
 ### 实验九  异步任务的隐含子线程程序框架
 
 ### 实验十  服务：启动和停止服务，服务代码运行在显示子线程。（注意：一定要熟练到，哪部分代码在哪个时间片运行，哪个变量是独立的，哪个变量是共享的，多个线程之间如何通讯）
